@@ -1,0 +1,30 @@
+# ===== Thong tin bi mat (WiFi, token Telegram, mat khau web) =====
+secrets.h
+**/secrets.h
+
+# ===== File sao luu / tam =====
+*.bak
+*.tmp
+*.orig
+*~
+
+# ===== Ket qua build Arduino IDE / arduino-cli / PlatformIO =====
+build/
+*.bin
+*.elf
+*.hex
+*.map
+*.o
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# ===== Editor / IDE =====
+.vscode/
+.idea/
+*.code-workspace
+
+# ===== He dieu hanh =====
+.DS_Store
+Thumbs.db
+desktop.ini
